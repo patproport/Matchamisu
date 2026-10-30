@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_link_quick_launcher_highlight_favorites">一覧でお気に入りを強調</string>
+    <string name="setting_link_quick_launcher_icon_colors">アプリのアイコン色を使う</string>
+    <string name="setting_link_quick_launcher_static_top_highlight">最上位候補に固定の強調色を使う</string>
+    <string name="setting_link_quick_launcher_alias_first">検索用の別名を先に表示</string>
+    <string name="setting_link_quick_launcher_entries">QuickLauncherの項目</string>
+    <string name="setting_link_quick_launcher_customize_entries">QuickLauncherの項目を設定</string>
+    <string name="setting_link_quick_launcher_source_apps">アプリ</string>
+    <string name="setting_link_quick_launcher_source_pastiera">Pastieraの操作</string>
+    <string name="setting_link_quick_launcher_source_appactions">アプリの操作</string>
+    <string name="setting_link_quick_launcher_source_devicecontrol">デバイス操作</string>
+    <string name="setting_link_quick_launcher_source_navactions">移動操作</string>
+    <string name="setting_link_haptic_duration">タップ時の振動時間</string>
+    <string name="setting_link_variation_mappings">文字バリエーションの割り当て</string>
+    <string name="setting_link_max_icon_shrink">アイコン縮小率の上限</string>
+    <string name="setting_link_status_extended_left">拡張ステータスバー: 左のボタン</string>
+    <string name="setting_link_status_extended_right">拡張ステータスバー: 右のボタン</string>
+    <string name="setting_link_status_pastierina_left">Pastierina: 左のボタン</string>
+    <string name="setting_link_status_pastierina_right">Pastierina: 右のボタン</string>
+    <string name="setting_link_theme_software_key_rounding">画面上のキー: 角丸</string>
+    <string name="setting_link_theme_hardware_chrome_rounding">物理キーボード: 候補欄の角丸</string>
+    <string name="setting_link_theme_software_chrome_rounding">画面上のキーボード: 候補欄の角丸</string>
+    <string name="setting_link_theme_hardware_suggestions_height">物理キーボード: 候補欄の高さ</string>
+    <string name="setting_link_theme_software_suggestions_height">画面上のキーボード: 候補欄の高さ</string>
+    <string name="setting_link_theme_hardware_variations_height">物理キーボード: バリエーション欄の高さ</string>
+    <string name="setting_link_theme_software_variations_height">画面上のキーボード: バリエーション欄の高さ</string>
+    <string name="setting_link_theme_software_key_height">画面上のキー: 高さ</string>
+    <string name="setting_link_theme_software_number_row_height">画面上のキーボード: 数字列の高さ</string>
+    <string name="setting_link_theme_software_key_width">画面上のキー: 幅</string>
+    <string name="setting_link_theme_software_row_spacing">画面上のキーボード: 行間</string>
+    <string name="setting_link_theme_preview_viewport">プレビューの最大表示領域</string>
+    <string name="setting_link_theme_hardware_led_colors">物理キーボード: LEDの色</string>
+    <string name="setting_link_theme_hardware_assignment">物理キーボード: テーマの割り当て</string>
+    <string name="setting_link_theme_hardware_light_theme">物理キーボード: ライトモードのテーマ</string>
+    <string name="setting_link_theme_hardware_dark_theme">物理キーボード: ダークモードのテーマ</string>
+    <string name="setting_link_theme_hardware_layout_overrides">物理キーボード: 配列ごとのテーマ</string>
+    <string name="setting_link_theme_software_led_colors">画面上のキーボード: LEDの色</string>
+    <string name="setting_link_theme_software_assignment">画面上のキーボード: テーマの割り当て</string>
+    <string name="setting_link_theme_software_light_theme">画面上のキーボード: ライトモードのテーマ</string>
+    <string name="setting_link_theme_software_dark_theme">画面上のキーボード: ダークモードのテーマ</string>
+    <string name="setting_link_theme_software_layout_overrides">画面上のキーボード: 配列ごとのテーマ</string>
+    <string name="setting_link_theme_assignment">テーマの割り当て</string>
+    <string name="setting_link_quick_launcher_favorite_color">QuickLauncherのお気に入りの強調色</string>
+    <string name="setting_link_quick_launcher_top_match_color">QuickLauncherの最上位候補の強調色</string>
+</resources>

@@ -1,0 +1,9 @@
+Source: google/mozc a069a88d4cb5c011de0f9aebb6c149a1c808d904
+Source volume: meltype-mozc
+Build image: meltype-build
+Targets: //data_manager/oss:mozc_dataset_for_oss, //android/jni:mozc.arm64
+Data command: bazel build //data_manager/oss:mozc_dataset_for_oss --config release_build
+JNI command: bazel build //android/jni:mozc.arm64 --config oss_android --config release_build
+JNI source: src/android/jni/mozcjni.cc
+ABI: arm64-v8a
+Bazel: bazel 9.0.2

@@ -1,0 +1,146 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/
+/.vscode/
+.DS_Store
+/build
+/app/build/
+/.codex-gradle/
+/captures
+.release
+/release
+.externalNativeBuild
+.cxx
+local.properties
+
+# Keystore files (security)
+*.jks
+*.keystore
+keystore.properties
+release/keystore.properties
+
+# Cursor rules (workspace-specific)
+.cursor/
+
+# Build scripts (local)
+assembla_release.sh
+
+# Local build metadata
+app/build.properties
+.kotlin/
+
+# Local F-Droid repo workspace
+.fdroid/
+debug-logs/
+
+# Local Q25 diagnostic captures and editor backups; review already tracked files separately.
+/*.log
+/input-*.txt
+/window-*.txt
+/q25-*.txt
+*.apk
+*.aab
+*.apks
+*.aar
+*.bak
+*.orig
+*.swp
+/dict_backup/
+/CODEX_HANDOFF.md
+
+# Local diagnostics and machine-specific captures at any depth.
+**/*.log
+**/*.trace
+**/*.dump
+**/bugreport-*.zip
+**/screenrecord-*.mp4
+**/adb-*.txt
+**/logcat-*.txt
+**/input-*.txt
+**/window-*.txt
+**/q25-*.txt
+
+# Credentials and private signing material, regardless of extension.
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+**/keystore.properties
+**/signing.properties
+**/*credentials*
+**/*secrets*
+
+# Private local configuration and editor/task state.
+**/local.properties
+/.codex/
+/.agents/
+/.claude/
+/.cursor/
+/.codex-gradle/
+/.idea/
+/.vscode/
+/.kotlin/
+/.gradle/
+/.fdroid/
+/.prediction-bench/
+**/*.iml
+
+# Local backups and generated verification artifacts (canonical Mozc build inputs
+# and app/libs/mozc-proto.jar are intentionally not ignored).
+**/*~
+**/*.backup
+**/*.backup.*
+**/*.tmp
+**/*.temp
+/source-built-mozc/generated-proto/class-jars/
+/source-built-mozc/generated-proto/verification/
+/source-built-mozc/verification/
+
+# Internal audit/handoff notes and per-device raw archives.
+/CODEX_HANDOFF.md
+/docs/device-archives/
+/docs/*signing-key-attestation*.pdf
+/docs/*signing-certificate-attestation*.pdf
+/docs/*signing-key-attestation*.md
+/docs/*signing-certificate-attestation*.md
+/signing/lineages/
+/fastlane/
+/fdroiddata/
+/.github/workflows/debug.yml
+/.github/workflows/release.yml
+/.github/workflows/
+/source-built-mozc/backup/
+/tools/prediction_bench/
+
+# Publish only reviewed release documentation; local archives and historical
+# attestations must never enter a first-commit wildcard add.
+/docs/*
+!/docs/stable-first-release-checklist.md
+!/docs/stable-release-component-review.md
+!/docs/stable-release-dependency-pom-inventory.md
+!/docs/github-initial-public-file-selection.md
+!/docs/phase-4-e3-release-verification.md
+!/docs/github-release-v0.1.0.md
+
+# Local prediction benchmark workspace
+.prediction-bench/
+
+# Local agent instructions
+AGENTS.md
+CLAUDE.md
+
+# Retired AquaMozc extraction artifacts (Phase 4-D)
+/.aqua-native/
+/AquaMozc/
+/mozc-release.aar
+/app/src/main/jniLibs/arm64-v8a/libmozc.so

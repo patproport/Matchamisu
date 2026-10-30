@@ -1,0 +1,22 @@
+MOZC_COMMIT=a069a88d4cb5c011de0f9aebb6c149a1c808d904
+Bazel target=//protocol:commands_java_proto_lite
+Bazel version=bazel 9.0.2
+protoc version=libprotoc 34.1
+Java generation=java_lite_proto_library (--java_out=lite)
+Bazel flags=--config release_build --java_runtime_version=remotejdk_11 --tool_java_runtime_version=remotejdk_11
+Source image=meltype-build
+Source volume=meltype-mozc
+Bazel cache volume=meltype-bazel
+Proto inputs:
+  protocol/commands.proto
+  protocol/candidate_window.proto
+  protocol/config.proto
+  protocol/engine_builder.proto
+  protocol/user_dictionary_storage.proto
+Class jar inputs:
+  libcommands_proto-lite.jar
+  libcandidate_window_proto-lite.jar
+  libconfig_proto-lite.jar
+  libengine_builder_proto-lite.jar
+  libuser_dictionary_storage_proto-lite.jar
+Rebuild command=source-built-mozc/build-proto.ps1

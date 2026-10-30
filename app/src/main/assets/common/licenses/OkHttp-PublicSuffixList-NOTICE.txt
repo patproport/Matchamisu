@@ -1,0 +1,7 @@
+OkHttp 4.11.0 includes publicsuffixes.gz compiled from The Public Suffix List:
+https://publicsuffix.org/list/public_suffix_list.dat
+
+The list is subject to the Mozilla Public License, version 2.0:
+https://mozilla.org/MPL/2.0/
+
+This separate copy records the conditions identified by the NOTICE embedded in OkHttp 4.11.0. The exact source snapshot used for the compiled file has not yet been established.

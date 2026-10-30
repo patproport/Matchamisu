@@ -1,0 +1,4 @@
+ec350e4096efec81b8c7cdde7507e15828aa91e756b43f8ad7e9dd2af134bc41  arm64-v8a/libmozc.so
+720d0cb42651fe35692578ea5f3c752940b8357fc24efc46230c904d2f5d5d70  data/mozc.data
+4ee4ccfcd38577d2bb6e113d2d8ac443e97209db401d497684499c20efd0dca2  metadata/proto/commands.proto
+242354625761cb289ffd087fce5cf2184a1d31c52bbee2dd033382c18fb37a07  metadata/proto/candidate_window.proto
